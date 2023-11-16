@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+
+button {
+  border: 2px solid black;
+  border-radius: 3px;
+  color: white;
+  padding: 10px;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+#increaseBtn {
+  background-color: red;
+}
+
+#decreaseBtn {
+  background-color: green;
+}
+
+.left-side {
+  width: 40%;
+  padding: 20px;
+}
+
+#infoText {
+  max-width: 35vw;
+}
+
+.right-side {
+  width: 60%;
+  overflow: hidden;
+}
+
+.image-container {
+  height: 100vh;
+  width: 70vw;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 70vw;
+  height: 70vh;
+  overflow: hidden;
+}
